@@ -1,0 +1,11 @@
+.txt-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $dark-color;
+
+  // f/a
+  &:focus {
+    outline: none;
+    box-shadow: 0 4px 2px -2px $dark-color;
+  }
+}

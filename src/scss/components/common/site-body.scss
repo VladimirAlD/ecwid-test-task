@@ -1,0 +1,23 @@
+.site-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: $dark-color;
+  background-color: $default-color;
+
+  &__site-main {
+    flex: 1 0 auto;
+    margin-bottom: 10px;
+  }
+
+  &__site-footer {
+    margin-top: auto;
+    flex-shrink: 0;
+  }
+}

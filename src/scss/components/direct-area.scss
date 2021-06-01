@@ -1,0 +1,19 @@
+.direct-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__txt-input {
+    margin-top: 10px;
+  }
+
+  &__btn {
+    margin-top: 10px;
+  }
+
+  @include media($smTableWidth) {
+    justify-content: space-between;
+    align-items: center;
+  }
+}

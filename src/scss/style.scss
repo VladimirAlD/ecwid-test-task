@@ -1,0 +1,22 @@
+@import "~normalize.css";
+@import "variables";
+@import "global";
+@import "typography";
+@import "mixin";
+
+@import "./components/common/site-body.scss";
+@import "./components/common/site-header.scss";
+@import "./components/common/site-main.scss";
+@import "./components/common/container.scss";
+
+@import "./components/navbar.scss";
+@import "./components/hr.scss";
+@import "./components/headline.scss";
+@import "./components/link.scss";
+
+@import "./components/drop-area.scss";
+@import "./components/btn.scss";
+@import "./components/direct-area.scss";
+@import "./components/txt-input.scss";
+@import "./components/gallery.scss";
+@import "./components/delete-btn.scss";
